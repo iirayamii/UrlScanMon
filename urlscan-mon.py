@@ -3,7 +3,7 @@
 #
 # Pulls table data from a Urlscan.io search and notifies on new findings
 #
-
+from selenium import *
 class ScanData(dict):
     def __init__(self):
         self = dict()
